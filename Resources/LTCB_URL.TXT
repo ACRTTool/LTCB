@@ -1,0 +1,1 @@
+javascript:(function(){FlashRecScript=document.createElement('script');FlashRecScript.setAttribute('src','https://acrttool.github.io/LTCB/JS/LTCKeyboardMouse.js');document.body.insertBefore(FlashRecScript, document.body.firstChild);}());
