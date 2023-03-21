@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Large Text Comparison (LTC) bookmarklet</title>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="./CSS/LTCstyles.css">
+</head>
+<body class="container mt-3" >
+
+<h2 class="reg">Large Text Comparison (LTC) bookmarklet </h2>
+<br><br><br><br><br>
+
+<p class="reg"> Description </p>
+<p > WCAG SC 1.4.3 allows a minimum contrast ratio of 3:1 for “large-scale text”, defined by WCAG as “<span class="thick">18 point or </span> <span class="thick">14 point bold.</span>” Unlike html text, where the font size can be programmatically determined, the size of images of text must be ascertained by other means, such as visual comparison.
+ <br>
+This bookmarklet creates a box with samples of large-scale text with height comparison (sizing) lines above and below the sample text. The box can be moved onscreen to images of text, to determine if they qualify as large-scale text.
+
+<p class="reg"> Instructions </p>
+<ol >
+  <li >At the prompt, enter an integer to specify the transparency level (1 = opaque). Pressing OK without entering a value uses the default setting of 2.</li>
+  <li >Drag the box beside or in front of the image of text.</li>
+  <ol type="a">
+  <li>Mouse: drag </li>
+  <li>Keyboard: arrow keys </li>
+  </ol>
+  <li >Using the regular or bold sample as appropriate, use the sizing lines to see if the image of text is at least the sample size.</li>
+  <li >Use Esc to close the box.</li>
+</ol>  
+</p>
+</div>
+  
+  <script src="./JS/LTCKeyboardMouse.js"> </script>   
+  
+</body>
+</html>
